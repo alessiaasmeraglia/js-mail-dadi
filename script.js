@@ -21,7 +21,6 @@ let emailTrovata = false;
 for (let i = 0; i < listaInvitati.length; i++) {
     if (emailUtente === listaInvitati[i]) {
         emailTrovata = true;
-        break;
     }
 }
 
