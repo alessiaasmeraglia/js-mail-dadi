@@ -33,6 +33,28 @@ if (emailTrovata) {
     alert("Accesso non consentito");
 }
 
+
+/* const listaInvitati = [
+    "mario@gmail.com",
+    "luca@hotmail.com",
+    "anna@yahoo.com",
+    "giulia@outlook.com",
+    "paolo@email.com"
+];
+
+const emailUtente = prompt("Inserisci la tua email:");
+let messaggio = "Accesso non consentito";
+
+for (let i = 0; i < listaInvitati.length; i++) {
+    if (emailUtente === listaInvitati[i]) {
+        messaggio = "Accesso consentito";
+        
+    }
+}
+
+console.log(messaggio);
+alert(messaggio); */
+
 // =========================
 // ESERCIZIO 2: GIOCO DEI DADI
 // =========================
